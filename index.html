@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HERE AND NOW AI - Auditing Automation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/favicon-logo-with-name.png">
+    <style>
+      :root {
+        --hnai-primary: #FFDF00;
+        --hnai-secondary: #004040;
+        --hnai-primary-text-on-secondary: #FFDF00; /* Primary color for text on dark secondary bg */
+        --hnai-secondary-text-on-primary: #004040; /* Secondary color for text on light primary bg */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.522.0",
+    "react-dropzone": "https://esm.sh/react-dropzone@^14.3.8",
+    "recharts": "https://esm.sh/recharts@^2.15.4",
+    "papaparse": "https://esm.sh/papaparse@^5.5.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.6.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-[var(--hnai-secondary)]">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
